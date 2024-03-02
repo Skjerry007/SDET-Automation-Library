@@ -1,0 +1,27 @@
+[
+    {
+    "registrationNumber": "HR26AG2024",
+    "businessType": "car",
+    "insurancePolicySubType": "new"
+},
+{
+    "registrationNumber": "UP32QS6787",
+    "businessType": "car",
+    "insurancePolicySubType": "new"
+},
+{
+    "registrationNumber": "MH02QS6700",
+    "businessType": "car",
+    "insurancePolicySubType": "rollover"
+},
+{
+    "registrationNumber": "MH01QS6787",
+    "businessType": "car",
+    "insurancePolicySubType": "new"
+},
+{
+    "registrationNumber": "DL01QS6787",
+    "businessType": "car",
+    "insurancePolicySubType": "rollover"
+}
+]

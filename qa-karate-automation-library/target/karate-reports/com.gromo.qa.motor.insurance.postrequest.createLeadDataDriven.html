@@ -1,0 +1,2249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"d4efd822-0d01-4daf-a961-34dc83e74526",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>com.gromo.qa.motor.insurance.postrequest.createLeadDataDriven</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">4</div>
+      <div id="nav-fail" class="bg-danger">2</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-02-15 10:26:18 pm</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:20]"><span>[1.1:20]</span> <span>To validate create lead api with invalid methods - get</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.2:21]"><span>[1.2:21]</span> <span>To validate create lead api with invalid methods - patch</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.3:22]"><span>[1.3:22]</span> <span>To validate create lead api with invalid methods - put</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.1:36]"><span>[2.1:36]</span> <span>Validate Create Lead API with valid accessToken for Posp user with vehicle number - HR26AG2024</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.2:37]"><span>[2.2:37]</span> <span>Validate Create Lead API with valid accessToken for Posp user with vehicle number - UP32QS6787</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3.1:61]"><span>[3.1:61]</span> <span>Validate Create Lead API with manipulating the headers</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">com/gromo/qa/motor/insurance/postrequest/createLeadDataDriven.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">To Test the Create Lead API for Four wheeler online Flow</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:20]</span>
+                <span class="scenario-name">To validate create lead api with invalid methods - get</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>871</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://mv-preprod.gromoinsure.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">22:26:17.114 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &#39;/api/v1/insurance/lead/create&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = &#39;eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header userid = &#39;7FNS2221&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def errorResponse = read(&#39;../404ErrorSchema.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">94</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request {}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">706</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.13">22:26:17.643 request:
+1 &gt; GET https://mv-preprod.gromoinsure.in/api/v1/insurance/lead/create
+1 &gt; Authorization: eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D
+1 &gt; userid: 7FNS2221
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 2
+1 &gt; Host: mv-preprod.gromoinsure.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{}
+
+22:26:17.980 response time in milliseconds: 332
+1 &lt; 404
+1 &lt; Server: nginx
+1 &lt; Date: Thu, 15 Feb 2024 16:56:17 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 91
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;5b-UWfPqvP9SeczOqvwR3l1qJbi4+0&quot;
+{&quot;statusCode&quot;:404,&quot;message&quot;:&quot;Cannot GET /api/v1/insurance/lead/create&quot;,&quot;error&quot;:&quot;Not Found&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.15">22:26:17.999 [print] {
+  &quot;statusCode&quot;: 404,
+  &quot;message&quot;: &quot;Cannot GET /api/v1/insurance/lead/create&quot;,
+  &quot;error&quot;: &quot;Not Found&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response == errorResponse[0]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">47</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print errorResponse[0]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.17">22:26:18.051 [print] {
+  &quot;statusCode&quot;: 404,
+  &quot;message&quot;: &quot;Cannot GET /api/v1/insurance/lead/create&quot;,
+  &quot;error&quot;: &quot;Not Found&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:21]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:21]</span>
+                <span class="scenario-name">To validate create lead api with invalid methods - patch</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>130</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:21]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://mv-preprod.gromoinsure.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.4">22:26:18.092 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &#39;/api/v1/insurance/lead/create&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = &#39;eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header userid = &#39;7FNS2221&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def errorResponse = read(&#39;../404ErrorSchema.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request {}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method patch</span>
+      </div>
+    </div>
+    <div class="time-cell passed">115</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.13">22:26:18.110 request:
+1 &gt; PATCH https://mv-preprod.gromoinsure.in/api/v1/insurance/lead/create
+1 &gt; Authorization: eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D
+1 &gt; userid: 7FNS2221
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 2
+1 &gt; Host: mv-preprod.gromoinsure.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{}
+
+22:26:18.220 response time in milliseconds: 109
+1 &lt; 404
+1 &lt; Server: nginx
+1 &lt; Date: Thu, 15 Feb 2024 16:56:18 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 93
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;5d-1gWjeb5h2Y8zHIrdfbybVNs46yI&quot;
+{&quot;statusCode&quot;:404,&quot;message&quot;:&quot;Cannot PATCH /api/v1/insurance/lead/create&quot;,&quot;error&quot;:&quot;Not Found&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.15">22:26:18.224 [print] {
+  &quot;statusCode&quot;: 404,
+  &quot;message&quot;: &quot;Cannot PATCH /api/v1/insurance/lead/create&quot;,
+  &quot;error&quot;: &quot;Not Found&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response == errorResponse[1]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print errorResponse[1]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.17">22:26:18.229 [print] {
+  &quot;statusCode&quot;: 404,
+  &quot;message&quot;: &quot;Cannot PATCH /api/v1/insurance/lead/create&quot;,
+  &quot;error&quot;: &quot;Not Found&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:22]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:22]</span>
+                <span class="scenario-name">To validate create lead api with invalid methods - put</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>123</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.3:22]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.3:22]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://mv-preprod.gromoinsure.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.4">22:26:18.244 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:22]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &#39;/api/v1/insurance/lead/create&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:22]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = &#39;eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:22]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header userid = &#39;7FNS2221&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def errorResponse = read(&#39;../404ErrorSchema.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request {}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method put</span>
+      </div>
+    </div>
+    <div class="time-cell passed">110</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.13">22:26:18.252 request:
+1 &gt; PUT https://mv-preprod.gromoinsure.in/api/v1/insurance/lead/create
+1 &gt; Authorization: eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D
+1 &gt; userid: 7FNS2221
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 2
+1 &gt; Host: mv-preprod.gromoinsure.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{}
+
+22:26:18.359 response time in milliseconds: 105
+1 &lt; 404
+1 &lt; Server: nginx
+1 &lt; Date: Thu, 15 Feb 2024 16:56:18 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 91
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;5b-S3LGSZ2j8YNpwo3cr1dr7AJoIz4&quot;
+{&quot;statusCode&quot;:404,&quot;message&quot;:&quot;Cannot PUT /api/v1/insurance/lead/create&quot;,&quot;error&quot;:&quot;Not Found&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.15">22:26:18.362 [print] {
+  &quot;statusCode&quot;: 404,
+  &quot;message&quot;: &quot;Cannot PUT /api/v1/insurance/lead/create&quot;,
+  &quot;error&quot;: &quot;Not Found&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response == errorResponse[2]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print errorResponse[2]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.17">22:26:18.370 [print] {
+  &quot;statusCode&quot;: 404,
+  &quot;message&quot;: &quot;Cannot PUT /api/v1/insurance/lead/create&quot;,
+  &quot;error&quot;: &quot;Not Found&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.1:36]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.1:36]</span>
+                <span class="scenario-name">Validate Create Lead API with valid accessToken for Posp user with vehicle number - HR26AG2024</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>152</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2.1:36]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2.1:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://mv-preprod.gromoinsure.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">22:26:18.399 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.1:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &#39;/api/v1/insurance/lead/create&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.1:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = &#39;eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.1:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header userid = &#39;7FNS2221&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def actualResponse = read(&#39;../createLeadResponseschema.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request {  &quot;registrationNumber&quot;: &#39;#(registrationNumber)&#39;,&quot;businessType&quot;: &#39;#(businessType)&#39;, &quot;insurancePolicySubType&quot;: &#39;#(insurancePolicySubType)&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers {Accept : &#39;application/json&#39;, Content-Type: &#39;application/json&#39;, isPos:&#39;true&#39;, userid: &#39;7FNS2221&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">128</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.29">22:26:18.428 request:
+1 &gt; POST https://mv-preprod.gromoinsure.in/api/v1/insurance/lead/create
+1 &gt; Authorization: eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D
+1 &gt; userid: 7FNS2221
+1 &gt; Accept: application/json
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; isPos: true
+1 &gt; Content-Length: 87
+1 &gt; Host: mv-preprod.gromoinsure.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;registrationNumber&quot;:&quot;HR26AG2024&quot;,&quot;businessType&quot;:&quot;car&quot;,&quot;insurancePolicySubType&quot;:&quot;new&quot;}
+
+22:26:18.545 response time in milliseconds: 116
+1 &lt; 400
+1 &lt; Server: nginx
+1 &lt; Date: Thu, 15 Feb 2024 16:56:18 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 62
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;3e-UH+dgs1O7nbHffu56fPPk7+04T4&quot;
+{&quot;msg&quot;:&quot;Details Entered is Invalid&quot;,&quot;success&quot;:false,&quot;data&quot;:{}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.30">
+      <div class="step-ref failed">30</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response == actualResponse</span>
+      </div>
+    </div>
+    <div class="time-cell failed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.30">22:26:18.557 classpath:com/gromo/qa/motor/insurance/postrequest/createLeadDataDriven.feature:30
+And match response == actualResponse
+match failed: EQUALS
+  $ | not equal | match failed for name: &#39;success&#39; (MAP:MAP)
+  {&quot;msg&quot;:&quot;Details Entered is Invalid&quot;,&quot;success&quot;:false,&quot;data&quot;:{}}
+  {&quot;msg&quot;:&quot;OK&quot;,&quot;success&quot;:true,&quot;data&quot;:{&quot;leadId&quot;:&quot;#ignore&quot;,&quot;insuranceLeadId&quot;:&quot;#ignore&quot;,&quot;registrationNumber&quot;:&quot;#ignore&quot;,&quot;vehicleType&quot;:&quot;car&quot;}}
+
+    $.success | not equal (BOOLEAN:BOOLEAN)
+    false
+    true
+
+classpath:com/gromo/qa/motor/insurance/postrequest/createLeadDataDriven.feature:30
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.31">
+      <div class="step-ref skipped">31</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.2:37]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.2:37]</span>
+                <span class="scenario-name">Validate Create Lead API with valid accessToken for Posp user with vehicle number - UP32QS6787</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>119</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2.2:37]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2.2:37]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://mv-preprod.gromoinsure.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.4">22:26:18.615 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.2:37]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &#39;/api/v1/insurance/lead/create&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.2:37]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = &#39;eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.2:37]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header userid = &#39;7FNS2221&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def actualResponse = read(&#39;../createLeadResponseschema.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request {  &quot;registrationNumber&quot;: &#39;#(registrationNumber)&#39;,&quot;businessType&quot;: &#39;#(businessType)&#39;, &quot;insurancePolicySubType&quot;: &#39;#(insurancePolicySubType)&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers {Accept : &#39;application/json&#39;, Content-Type: &#39;application/json&#39;, isPos:&#39;true&#39;, userid: &#39;7FNS2221&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">110</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.29">22:26:18.632 request:
+1 &gt; POST https://mv-preprod.gromoinsure.in/api/v1/insurance/lead/create
+1 &gt; Authorization: eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D
+1 &gt; userid: 7FNS2221
+1 &gt; Accept: application/json
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; isPos: true
+1 &gt; Content-Length: 92
+1 &gt; Host: mv-preprod.gromoinsure.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;registrationNumber&quot;:&quot;UP32QS6787&quot;,&quot;businessType&quot;:&quot;car&quot;,&quot;insurancePolicySubType&quot;:&quot;rollover&quot;}
+
+22:26:18.731 response time in milliseconds: 97
+1 &lt; 400
+1 &lt; Server: nginx
+1 &lt; Date: Thu, 15 Feb 2024 16:56:18 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 62
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;3e-UH+dgs1O7nbHffu56fPPk7+04T4&quot;
+{&quot;msg&quot;:&quot;Details Entered is Invalid&quot;,&quot;success&quot;:false,&quot;data&quot;:{}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.30">
+      <div class="step-ref failed">30</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response == actualResponse</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.30">22:26:18.741 classpath:com/gromo/qa/motor/insurance/postrequest/createLeadDataDriven.feature:30
+And match response == actualResponse
+match failed: EQUALS
+  $ | not equal | match failed for name: &#39;success&#39; (MAP:MAP)
+  {&quot;msg&quot;:&quot;Details Entered is Invalid&quot;,&quot;success&quot;:false,&quot;data&quot;:{}}
+  {&quot;msg&quot;:&quot;OK&quot;,&quot;success&quot;:true,&quot;data&quot;:{&quot;leadId&quot;:&quot;#ignore&quot;,&quot;insuranceLeadId&quot;:&quot;#ignore&quot;,&quot;registrationNumber&quot;:&quot;#ignore&quot;,&quot;vehicleType&quot;:&quot;car&quot;}}
+
+    $.success | not equal (BOOLEAN:BOOLEAN)
+    false
+    true
+
+classpath:com/gromo/qa/motor/insurance/postrequest/createLeadDataDriven.feature:30
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.31">
+      <div class="step-ref skipped">31</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3.1:61]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3.1:61]</span>
+                <span class="scenario-name">Validate Create Lead API with manipulating the headers</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>110</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3.1:61]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3.1:61]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://mv-preprod.gromoinsure.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">22:26:18.766 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:61]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &#39;/api/v1/insurance/lead/create&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:61]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = &#39;eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:61]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header userid = &#39;7FNS2221&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def errorResponse = read(&#39;../createLead400ErrorSchema.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request {  &quot;registrationNumber&quot;: &#39;#(registrationNumber)&#39;,&quot;businessType&quot;: &#39;#(businessType)&#39;, &quot;insurancePolicySubType&quot;: &#39;#(insurancePolicySubType)&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers {Accept : &#39;application/json&#39;, Content-Type: &#39;application/json&#39;, isPos:&#39;true&#39;, userid: &#39;abcd&#39; } # Replace abcd with the manipulated value</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.54">
+      <div class="step-ref passed">54</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">97</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.54">22:26:18.777 request:
+1 &gt; POST https://mv-preprod.gromoinsure.in/api/v1/insurance/lead/create
+1 &gt; Authorization: eItk7j0aOYpC4NV16Gkb8EYhoWBL2tFRO6lWohd1wkKkfWdIaV6hMBtChpJGD%2BRfEsKuPFIc8Um%2F3o%2BeBq6j5QG2m2FUM5LZkXKkebAiaIbSAajH%2Ffc%2F0TUVj9%2BF8E8l3ZPUv4zdvruZt7uBIwxlH4EZ%2Ftkk2wncFmGAsCSkURybVH%2Be8inoUiWoR2Cn2frI5e%2Fn5ms66XZeoqOiqrWKvoSzvZFEfzJZAr05zYKVu47vx%2BhEh8pggJWXjAcxjNNlAgqEkrPjdmRZL4w4GHy3HyRKnci0MMZMY%2FRhgUFHH3F3iI5G4mWgsxvmPH8iPYlyxNVngNaoLAhRhbDtD9EVI1zzo69U3eDx83p4p%2FCaHXPWHKt2PfxLiZvrnjJnWrTJ3T6i%2FxKOLasoX%2FhqN0jvxZf7w3HoSs6GQvLvO9ky0efVMVO2Tl2M3MBmzcZWUchBi0XenD3hBM%2FxzYKgv8lC9nhQ0XiQje0L47j0tTbaCBETiXFO4W1qjObM3XY03wV11xnH5zBe5qpu9BYeh1d%2F%2FjYqYl67YtH3Br51vN1OGyV5Pbw3itHMqoX%2FCM%2FQ0d2OGDa8emw6VYJpPveqfLwAfoMs%2B0BTz%2BZBcE9rd5uFOEMkoHs17a%2FX4gCev6dBgRAOtIfF6T5hGn4qftz3LP2%2Fq0qX7L1pSL1u3Ca%2FdRI1q6I%3D
+1 &gt; userid: abcd
+1 &gt; Accept: application/json
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; isPos: true
+1 &gt; Content-Length: 87
+1 &gt; Host: mv-preprod.gromoinsure.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;registrationNumber&quot;:&quot;HR26AG2024&quot;,&quot;businessType&quot;:&quot;car&quot;,&quot;insurancePolicySubType&quot;:&quot;new&quot;}
+
+22:26:18.867 response time in milliseconds: 89
+1 &lt; 400
+1 &lt; Server: nginx
+1 &lt; Date: Thu, 15 Feb 2024 16:56:18 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 62
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;3e-UH+dgs1O7nbHffu56fPPk7+04T4&quot;
+{&quot;msg&quot;:&quot;Details Entered is Invalid&quot;,&quot;success&quot;:false,&quot;data&quot;:{}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.56">22:26:18.873 [print] {
+  &quot;msg&quot;: &quot;Details Entered is Invalid&quot;,
+  &quot;success&quot;: false,
+  &quot;data&quot;: {
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == errorResponse</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

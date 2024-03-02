@@ -1,0 +1,10 @@
+{
+    "success":true,
+"msg":"OK",
+"data":{
+    "leadId":"#ignore",
+    "insuranceLeadId":"#ignore",
+    "registrationNumber":"#ignore",
+    "vehicleType":"car"
+    }
+}

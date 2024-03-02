@@ -1,0 +1,3 @@
+[{"statusCode":404,"message":"Cannot GET /api/v1/insurance/lead/create","error":"Not Found"},
+{"statusCode":404,"message":"Cannot PATCH /api/v1/insurance/lead/create","error":"Not Found"},
+{"statusCode":404,"message":"Cannot PUT /api/v1/insurance/lead/create","error":"Not Found"}]
